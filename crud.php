@@ -51,28 +51,6 @@ p {font-size: 16px;}
 </head>
 <body>
 
-<!-- Navbar -->
-
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="home.html">MLG BIKE</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="glyphicon glyphicon-home logo-small" href="home.html">HOME</a></li>
-        <li><a class="glyphicon glyphicon-plus-sign logo-small" href="register.html">REGISTER</a></li>
-        <li><a class="glyphicon glyphicon-log-in logo-small" href="login.html">LOGIN</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
 <?php 
 
 ?></i>
@@ -92,6 +70,29 @@ p {font-size: 16px;}
     </div>
     </div>
     <br>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html">MLG BIKE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="glyphicon glyphicon-home logo-small" href="home.html">HOME</a></li>
+        <li><a class="glyphicon glyphicon-plus-sign logo-small" href="register.php">REGISTER</a></li>
+        <li><a class="glyphicon glyphicon-log-in logo-small" href="login.php">LOGIN</a></li>
+        <li><a class="glyphicon glyphicon-user logo-small" href="crud.php"><strong>ADMIN</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <br>
   <div class="container-fluid bg-2 text-center">

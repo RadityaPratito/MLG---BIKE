@@ -67,7 +67,7 @@ body {
 <!-- Submit -->
 
         <br/>
-    <center><button type="Submit" class="btn btn-primary" style="width:30%;">ADD</button></center>
+    <center><button type="Submit" class="btn btn-success" style="width:30%;">ADD</button></center>
         <br>
 </form>
 </div>
